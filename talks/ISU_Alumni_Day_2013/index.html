@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>ISU Alumni Day Physics Career Panel</title>
+
+		<meta name="description" content="A framework for easily creating beautiful presentations using HTML">
+		<meta name="author" content="Hakim El Hattab">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/reveal.min.css">
+		<link rel="stylesheet" href="css/theme/default.css" id="theme">
+
+		<!-- For syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- If the query includes 'print-pdf', use the PDF print sheet -->
+		<script>
+			document.write( '<link rel="stylesheet" href="css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown>
+					<script type="text/template">
+					## ISU Alumni Day
+					## Physics Careers Panel
+					## 2013-10-04
+
+					[Ryan Balfanz](http://ryanbalfanz.net)
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					## Who is this guy?
+
+					- B.S. Computer Physics, Mathematics; ISU; 2007
+						- ILP, Solar Car, Planetarium, Gamma Phi Circus, MSP
+					- M.S. Computational Condenssed Matter Physics, EE; SIUE; 2009
+						- Astonomy focused reasearch, GalaxyZoo.org, MoonZoo.org
+						- Left to join a successful start-up company in Silicon Valley
+					</script>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					## Who is this guy?
+
+					- Entrepreneur (OpenCard, MendelApp, JouleTrack, and more…?)
+					- Data Analyst, Software Engineer; Mint.com (Intuit)
+					- Lead Software Engineer; MindSnacks
+					- Self-employeed consultant
+					- Senior Software Engineer; Netflix
+					</script>
+				</section>
+
+				<section>
+					<section data-markdown>
+						<script type="text/template">
+						## Software Engineering vs. Data Science
+
+						Which best suits you?
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+						## Software Engineering
+
+						- Writing full-blown applications
+							- Web, Mobile, Desktop
+						- Developer Operations (DevOps)
+							- Server maintenance
+							- Deployments
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+						## Data Science
+
+						- A lot of "glue" scripts to process and analyze data
+						- Automate everything
+						- Touches all areas of the business
+						</script>
+					</section>
+
+					<section data-markdown>
+						<script type="text/template">
+						## Data Engineering
+
+						- A happy medium?
+						- The conduit for software engineers and data scientists
+						- Data storage and retrieval
+						</script>
+					</section>
+				</section>
+
+				<section data-markdown>
+					<script type="text/template">
+					## Contact Info
+
+					- e-mail: <mailto:ryan@ryanbalfanz.net>
+					- Twitter: [@RyanBalfanz](https://twitter.com/RyanBalfanz)
+					- Github: [RyanBalfanz](https://github.com/RyanBalfanz)
+					- LinkedIn: [linkedin.com/in/ryanbalfanz](http://www.linkedin.com/in/ryanbalfanz)
+
+					</script>
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.min.js"></script>
+
+		<script>
+
+			// Full list of configuration options available here:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+				transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+				// Optional libraries used to extend on reveal.js
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+					{ src: 'plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
