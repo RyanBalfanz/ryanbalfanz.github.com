@@ -1,1 +1,24 @@
-My Github Site
+<!DOCTYPE html>
+<html ng-app="App">
+<head>
+	<title></title>
+	<script src="bower_components/angular/angular.min.js"></script>
+
+	<script>
+		var app =angular.module("App", []);
+
+		app.constant("appConfig", {heroText: "My Github Site"});
+
+		app.controller("ApplicationController", [
+			"$scope",
+			"appConfig",
+			function($scope, appConfig) {
+				$scope.heroText = appConfig.heroText;
+			}
+		]);
+	</script>
+</head>
+<body ng-controller="ApplicationController">
+	<h1>{{heroText}}</h1>
+</body>
+</html>
