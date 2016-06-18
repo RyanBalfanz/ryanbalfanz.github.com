@@ -1,0 +1,29 @@
+{
+  "name": "ryanbalfanz.github.com",
+  "version": "1.0.0",
+  "description": "ryanbalfanz.com",
+  "main": "app.js",
+  "devDependencies": {
+    "angular": "^1.5.7",
+    "html-loader": "^0.4.3",
+    "http-server": "^0.9.0",
+    "ng-annotate-loader": "^0.1.0",
+    "ngtemplate-loader": "^1.3.1",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RyanBalfanz/ryanbalfanz.github.com.git"
+  },
+  "author": "Ryan Balfanz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RyanBalfanz/ryanbalfanz.github.com/issues"
+  },
+  "homepage": "https://github.com/RyanBalfanz/ryanbalfanz.github.com#readme"
+}
